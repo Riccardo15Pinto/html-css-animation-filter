@@ -58,6 +58,14 @@
     filter: grayscale(1);
 }
 
+.ex-7-img{
+    transition: filter 10s , scale 4s;
+}
+.ex-7-img:hover{
+    filter: grayscale(1);
+    scale: 0.8;
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
