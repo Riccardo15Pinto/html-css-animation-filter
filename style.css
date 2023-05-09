@@ -75,10 +75,16 @@
     border-radius: 30px;
 }
 
-
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 4s;
+}
+.ex-9-img:hover{
+    filter: opacity(0.4);
+    border: 1px solid green;
+    border-radius: 30px;
+    scale: 1.5;
 }
 .ex-10-icon {
     font-size: 60px;
