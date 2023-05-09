@@ -44,6 +44,13 @@
     height: 60px;
     background: red;
 }
+.ex-5-square:hover{
+    scale: 1.5;
+}
+.ex-5-square:active{
+    scale: 1;
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
