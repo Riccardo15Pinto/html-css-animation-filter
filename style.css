@@ -91,7 +91,6 @@
     font-size: 60px;
     animation: turn 1s infinite;
 }
-
 @keyframes turn {
     100%{
         rotate: 360deg;
@@ -100,10 +99,14 @@
 
 .ex-11-icon {
     font-size: 60px;
-    transition: transform 6s;
+    animation: turn-and-back 2s infinite alternate;
 }
-.ex-11-icon:hover{
-    transform: rotate(270deg);
+
+@keyframes turn-and-back {
+    to{
+        rotate: 270deg;
+    }
+   
 }
 
 
